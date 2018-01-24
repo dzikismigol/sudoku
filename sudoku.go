@@ -1,8 +1,8 @@
 package sudoku
 
 import (
-	"strings"
 	"strconv"
+	"strings"
 )
 
 type board struct {

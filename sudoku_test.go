@@ -1,8 +1,8 @@
 package sudoku
 
 import (
-	"testing"
 	"fmt"
+	"testing"
 )
 
 func TestBoard_New(t *testing.T) {
