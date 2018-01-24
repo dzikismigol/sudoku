@@ -53,7 +53,7 @@ func checkCounts(array []int, expected int) bool {
 func (b *board) GetRow(index int) []int {
 	row := make([]int, 0, 9)
 	startIndex := index * 9
-	for i := 0; i < 9; i ++ {
+	for i := 0; i < 9; i++ {
 		row = append(row, b.cells[startIndex+i])
 	}
 	return row

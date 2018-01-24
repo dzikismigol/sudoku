@@ -38,7 +38,7 @@ func TestFromString(t *testing.T) {
 func TestCountValues(t *testing.T) {
 	var values = []int{1, 1, 2, 2, 2, 3, 3, 3, 3}
 	var expected = map[int]int{1: 2, 2: 3, 3: 4}
-	var actual = CountValues(values);
+	var actual = CountValues(values)
 	for index, value := range expected {
 		if actual[index] != value {
 			fmt.Println("Got ", actual[index], " instead of expected ", value)
